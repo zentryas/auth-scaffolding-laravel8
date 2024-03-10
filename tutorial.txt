@@ -1,0 +1,18 @@
+Tutorial membuat auth scaffolding laravel 8 tanpa erorr
+
+1. composer require laravel/ui --ignore-platform-reqs
+2. php artisan ui bootstrap --auth
+3. Try this in your package.json.
+   "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+4. npm install laravel-mix@latest --save-dev
+5. npm run dev
+6. setting env connect database
+7. php artisan migrate
